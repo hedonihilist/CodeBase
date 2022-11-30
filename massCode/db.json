@@ -1,0 +1,44 @@
+{
+  "folders": [
+    {
+      "id": "ypYBoGVB",
+      "name": "Default",
+      "defaultLanguage": "typescript",
+      "parentId": null,
+      "isOpen": false,
+      "isSystem": false,
+      "createdAt": 1669702862389,
+      "updatedAt": 1669702862389,
+      "index": 0
+    },
+    {
+      "name": "Logging",
+      "parentId": null,
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "cfyV-VCT",
+      "createdAt": 1669781829699,
+      "updatedAt": 1669781837747
+    },
+    {
+      "name": "语言基础",
+      "parentId": null,
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "UAYN-75G",
+      "createdAt": 1669781841595,
+      "updatedAt": 1669781849581
+    }
+  ],
+  "snippets": [],
+  "tags": [
+    {
+      "name": "kotlin",
+      "id": "MLv2xeSV",
+      "createdAt": 1669777842355,
+      "updatedAt": 1669777842355
+    }
+  ]
+}
