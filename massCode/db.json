@@ -22,17 +22,53 @@
       "updatedAt": 1669781837747
     },
     {
-      "name": "语言基础",
+      "name": "kotlin",
       "parentId": null,
       "isOpen": false,
       "isSystem": false,
-      "defaultLanguage": "plain_text",
+      "defaultLanguage": "kotlin",
       "id": "UAYN-75G",
       "createdAt": 1669781841595,
-      "updatedAt": 1669781849581
+      "updatedAt": 1669783649283
     }
   ],
-  "snippets": [],
+  "snippets": [
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "UAYN-75G",
+      "tagsIds": [
+        "MLv2xeSV"
+      ],
+      "description": null,
+      "name": "kotlin lambda",
+      "content": [
+        {
+          "label": "define interface",
+          "language": "kotlin",
+          "value": "\nfun accumulate(data: IntArray, accumulator: (Int,Int) -> Int): Int {\n\t// pass\n}"
+        },
+        {
+          "label": "two parameter lambda",
+          "language": "kotlin",
+          "value": "\nsomeFunction(arg1, {a, b -> a + b})"
+        },
+        {
+          "label": "lambda as last argument",
+          "language": "kotlin",
+          "value": "someFunc(arr, {a, b -> a+b})\nsomeFunc(arr){a, b -> a+b}"
+        },
+        {
+          "label": "one parameter lambda",
+          "language": "kotlin",
+          "value": "// use `it` to refer to the parameter\nints.filter { it > 0 } // this literal is of type '(it: Int) -> Boolean'"
+        }
+      ],
+      "id": "7v6i_vEL",
+      "createdAt": 1669782507096,
+      "updatedAt": 1669783660103
+    }
+  ],
   "tags": [
     {
       "name": "kotlin",
